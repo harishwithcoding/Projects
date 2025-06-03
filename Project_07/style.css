@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    color: rgb(0, 0, 71);
+}
+
+#container{
+    position: relative;
+    width: 37%;
+    height: 90%;
+    border: 10px solid rgb(1, 1, 79);
+    background-color: #E5E5FD;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    width: 80%;
+    margin: auto;
+}
+
+#top img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#top .text{
+    position: relative;
+    bottom: -15%;
+}
+
+#top .text p{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+#bottom{
+    width: 80%;
+    margin: auto;
+}
+
+#bottom h1{
+    font-size: 50px;
+}
+
+#bottom p{
+    padding-top: 10px;
+    text-align:justify;
+    font-size: 10px;
+    line-height: 14px;  
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+#end{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#end ul{
+    padding-top: 15px;
+    position: absolute;
+    left: 3%;
+    font-size: 10px;
+    line-height: 14px;  
+    font-weight: 500;
+}
+
+#footer{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    right: -30%;
+    font-size: 13px;
+    line-height: 14px;  
+    font-weight: 500;
+}
