@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #383326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: -0 -0 10px #766637;
+
+}
+
+.card h2{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 30px;
+    color: #FFBF00;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,button{
+    margin: 0 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    background-color: #ffe69d;
+    color: #1a1a1a;
+}
+
+button{
+    background-color: #1a1a1a;
+    color: #FFBF00;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+}
+
+input::selection{
+    background-color: #1a1a1a;
+    color: #FFBF00;
+}
+
+input:focus{
+    color: #000000;
+    /* outline-color: #1a1a1a; */
+    outline: none;
+    background-color:#fdd14c;
+}
+
+button:hover{
+    background-color: #FFBF00;
+    color: #1a1a1a;
+    transition: 0.3s ease-out;
+    /* font-size: 16px; */
+}
+
+.name{
+    display: flex;
+}
+
+.name input{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name input:nth-child(1){
+    margin-right: 10px;
+}
+.name input:nth-child(2){
+    margin-left: 10px;
+}
+
+p{
+    color: #FFBF00;
+    text-align: center;
+    /* position: relative; */
+}
+
+p::before{
+    content: "";
+    border-bottom: 2px solid #fff;
+}
+
+form a{
+    margin: 20px auto;
+    width: 100px;
+    background-color: #FFBF00;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+form a:hover{
+    background-color: #766637;
+    color: #FFBF00;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+    font-size: 16px;
+
+}
+
+
+.lines{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.left{
+    top: 9px;
+    position: absolute;
+    left: 20px;
+    width: 110px;
+    height: 1px;
+    background-color: rgb(88, 75, 75);
+}
+
+.right{
+    top: 9px;
+    position: absolute;
+    right: 20px;
+    width: 110px;
+    height: 1px;
+    background-color: rgb(88, 75, 75);
+}
